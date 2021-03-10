@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+  li {
+    list-style: none;
+  }
+</style>
+</head>
+<body>
+
+<h1>Siia tuleb list</h1>
+<ul class="list">
+
+</ul>
+  <script>
+let string =`Abja Coop Konsumi pakiautomaat
+Ahtme Grossi pakiautomaat
+Ahtme Maxima XX pakiautomaat
+Antsla Coop Konsumi pakiautomaat
+Aravete Meie kaupluse pakiautomaat
+Aruküla Coop Konsumi pakiautomaat
+Aseri Grossi pakiautomaat
+Audru osavallakeskuse pakiautomaat
+Elva Arbimäe Coop Konsumi pakiautomaat
+Elva Turuplatsi Coop Konsumi pakiautomaat
+Haabneeme Coop Konsumi pakiautomaat
+Haapsalu Kastani pakiautomaat
+Haapsalu Kaubamaja pakiautomaat
+Haljala Grossi pakiautomaat
+Häädemeeste Coop Konsumi pakiautomaat
+Ihaste Coop Konsumi pakiautomaat
+Iisaku Grossi pakiautomaat
+Jõgeva Postkontori pakiautomaat
+Jõhvi Grossi pakiautomaat
+Jõhvi Jewe Keskuse pakiautomaat
+Jõhvi Maxima XX pakiautomaat
+Jõhvi Pargi Keskuse pakiautomaat
+Järva-Jaani Grossi pakiautomaat
+Järvakandi Kandi Konsumi pakiautomaat
+Jüri Coop Konsumi pakiautomaat
+Jüri Grossi pakiautomaat
+Kadrina Coop Konsumi pakiautomaat
+Kambja Coop Konsumi pakiautomaat
+Karksi-Nuia Coop Konsum pakiautomaat
+Kehra Coop Konsumi pakiautomaat
+Kehtna Coop kaupluse pakiautomaat
+Keila Grossi pakiautomaat
+Keila Maxima X pakiautomaat
+Keila Rõõmu kaubamaja pakiautomaat
+Kiili Coop Konsumi pakiautomaat
+Kiisa Coop kaupluse pakiautomaat
+Kilingi-Nõmme Coop Konsumi pakiautomaat
+Kiviõli Grossi pakiautomaat
+Kiviõli Maxima X pakiautomaat
+Koeru Vallamaja pakiautomaat
+Kohila Coop Konsumi pakiautomaat
+Kohtla-Järve Keskallee Maxima X pakiautomaat
+Kohtla-Järve Mõisa tee Maxima X pakiautomaat
+Kohtla-Järve Rimi pakiautomaat
+Kohtla-Järve Vironia Keskuse pakiautomaat
+Kose Grossi pakiautomaat
+Kostivere Meie kaupluse pakiautomaat
+Kunda Grossi pakiautomaat
+Kuressaare Maxima XX pakiautomaat
+Kuressaare Smuuli Coop Konsumi pakiautomaat
+Kuusalu Coop Konsumi pakiautomaat
+Kõrveküla Coop kaupluse pakiautomaat
+Käina Coop Konsumi pakiautomaat
+Kärdla Hiiu Coop Konsumi pakiautomaat
+Kärdla Tormi Coop Konsumi pakiautomaat
+Laagri Coop Maksimarketi pakiautomaat
+Laagri Veskitammi Selver ABC pakiautomaat
+Lagedi Keskusehoone pakiautomaat
+Lihula Coop Konsumi pakiautomaat
+Loksa Grossi pakiautomaat
+Loo Grossi pakiautomaat
+Maardu Maxima X pakiautomaat
+Maardu Maxima XX pakiautomaat
+Maardu Pärli Keskuse pakiautomaat
+Muhu Liiva Alexela pakiautomaat
+Muraste Coop Konsumi pakiautomaat
+Mustvee Coop Konsumi pakiautomaat
+Muuga Maxima X pakiautomaat
+Märjamaa Maxima X pakiautomaat
+Narva Astri keskuse pakiautomaat
+Narva Fama Keskuse pakiautomaat
+Narva Kerese keskuse pakiautomaat
+Narva Kreenholmi Maxima XX pakiautomaat
+Narva Megamarketi pakiautomaat
+Narva Prisma pakiautomaat
+Narva Tiimani Maxima XX pakiautomaat
+Narva-Jõesuu raamatukogu pakiautomaat
+Nõo vallamaja pakiautomaat
+Orissaare Coop Konsumi pakiautomaat
+Otepää Maxima X pakiautomaat
+Paide Hesburgeri pakiautomaat
+Paide Selveri pakiautomaat
+Paikuse Coop Konsumi pakiautomaat
+Paldiski Coop Konsumi pakiautomaat
+Paldiski Maxima X pakiautomaat
+Peetri Keskuse pakiautomaat
+Peetri Selveri pakiautomaat
+Puhja Coop Konsumi pakiautomaat
+Põltsamaa Selveri pakiautomaat
+Põlva Kaubamaja pakiautomaat
+Põlva Meie Ostumarketi pakiautomaat
+Põlva Selveri pakiautomaat
+Pärnu Coop Maksimarketi pakiautomaat
+Pärnu Jannseni Rimi pakiautomaat
+Pärnu Kaubamajaka pakiautomaat
+Pärnu Maxima XXX pakiautomaat
+Pärnu Oja Selver ABC pakiautomaat
+Pärnu Port Artur 2 pakiautomaat
+Pärnu Tiina Coop Konsumi pakiautomaat
+Pärnu Turu pakiautomaat
+Pärnu Ülejõe Selveri pakiautomaat
+Pärnu-Jaagupi Grossi pakiautomaat
+Raasiku Coop Konsumi pakiautomaat
+Rakvere Lilleoru kaupluse pakiautomaat
+Rakvere Põhjakeskuse pakiautomaat
+Rakvere Turutare pakiautomaat
+Rakvere Vaala keskuse pakiautomaat
+Rapla Maxima X pakiautomaat
+Rapla Vestis Coop Konsumi pakiautomaat
+Risti vallamaja pakiautomaat
+Rõngu Coop Konsumi pakiautomaat
+Räpina Coop Konsumi pakiautomaat
+Räpina Maxima X pakiautomaat
+Saaremaa Kaubamaja pakiautomaat
+Saku Coop Konsumi pakiautomaat
+Saku Selveri pakiautomaat
+Salme Rannapargi tee pakiautomaat
+Saue Grossi pakiautomaat
+Saue Kaubakeskuse pakiautomaat
+Sauga Coop Konsumi pakiautomaat
+Sillamäe Coop Maksimarketi pakiautomaat
+Sillamäe Viru pst Maxima X pakiautomaat
+Sindi Maxima X pakiautomaat
+Suure-Jaani Tervisekoja pakiautomaat
+Tabasalu Rimi pakiautomaat
+Tabivere Saadjärve Coop kaupluse pakiautomaat
+Tallinna Akadeemia Coop Konsumi pakiautomaat
+Tallinna Arsenali keskuse pakiautomaat
+Tallinna Balti Jaama pakiautomaat
+Tallinna Coca-Cola Plaza pakiautomaat
+Tallinna Ehitajate tee Grossi pakiautomaat
+Tallinna Ehitajate tee Maxima XXX pakiautomaat
+Tallinna Haabersti Rimi pakiautomaat
+Tallinna Idakeskuse pakiautomaat
+Tallinna Juhkentali Rimi pakiautomaat
+Tallinna Järve Keskuse pakiautomaat
+Tallinna Järveotsa Grossi pakiautomaat
+Tallinna Kadaka Selveri pakiautomaat
+Tallinna Kakumäe Selveri pakiautomaat
+Tallinna Kari Grossipoe pakiautomaat
+Tallinna Kivila Grossi pakiautomaat
+Tallinna Kolde Rimi pakiautomaat
+Tallinna Kollase Keskuse pakiautomaat
+Tallinna Kristiine Keskuse pakiautomaat
+Tallinna Kärberi Keskuse pakiautomaat
+Tallinna Lasnamäe Centrumi A pakiautomaat
+Tallinna Lasnamäe Centrumi B pakiautomaat
+Tallinna Lasnamäe Prisma pakiautomaat
+Tallinna Lastekodu Grossi pakiautomaat
+Tallinna Linnamäe Maxima XXX pakiautomaat
+Tallinna Läänemere Rimi pakiautomaat
+Tallinna Läänemere Selveri pakiautomaat
+Tallinna Magdaleena pakiautomaat
+Tallinna Magistrali Keskuse pakiautomaat
+Tallinna Marienthali Keskuse pakiautomaat
+Tallinna Merimetsa Selveri pakiautomaat
+Tallinna Mustakivi Keskuse pakiautomaat
+Tallinna Mustamäe Keskuse pakiautomaat
+Tallinna Mustika Keskuse pakiautomaat
+Tallinna Männiku Rimi pakiautomaat
+Tallinna Nautica Keskuse pakiautomaat
+Tallinna Nurmenuku pakiautomaat
+Tallinna Nõmme tee 23 Maxima X pakiautomaat
+Tallinna Nõmme turu pakiautomaat
+Tallinna Paasiku Grossi pakiautomaat
+Tallinna Paepargi Maxima XX pakiautomaat
+Tallinna Pallasti pakiautomaat
+Tallinna Pelgulinna Selveri pakiautomaat
+Tallinna Pirita Keskuse pakiautomaat
+Tallinna Pirita Selveri pakiautomaat
+Tallinna Punase Selveri pakiautomaat
+Tallinna Põhja Neste pakiautomaat
+Tallinna Pärnu mnt 390b Maxima X pakiautomaat
+Tallinna Pääsküla Rimi pakiautomaat
+Tallinna Raudalu Coop Konsumi pakiautomaat
+Tallinna Rocca al Mare pakiautomaat
+Tallinna Sikupilli pakiautomaat
+Tallinna Smuuli Maxima XX pakiautomaat
+Tallinna Solaris Keskuse pakiautomaat
+Tallinna Stockmanni pakiautomaat
+Tallinna Stroomi Keskuse pakiautomaat
+Tallinna Sõle Rimi (Paavli 10) pakiautomaat
+Tallinna Sõpruse pst 171 Maxima X pakiautomaat
+Tallinna Sõpruse Rimi pakiautomaat
+Tallinna Sütiste Maxima X pakiautomaat
+Tallinna T1 Keskuse pakiautomaat
+Tallinna Tammsaare Maxima XX pakiautomaat
+Tallinna Tammsaare Ärikeskuse pakiautomaat
+Tallinna Tatari Rimi pakiautomaat
+Tallinna Telliskivi Rimi pakiautomaat
+Tallinna Tondi Selveri pakiautomaat
+Tallinna Tondi Ärikeskuse pakiautomaat
+Tallinna Torupilli Selveri pakiautomaat
+Tallinna Tähesaju Selveri pakiautomaat
+Tallinna Tööstuse Rimi pakiautomaat
+Tallinna Valdeku Maxima X pakiautomaat
+Tallinna Valdeku Selver ABC pakiautomaat
+Tallinna Vikerlase Rimi pakiautomaat
+Tallinna Vilde tee Maxima XX pakiautomaat
+Tallinna Viru bussiterminali pakiautomaat
+Tallinna Õismäe Maxima XX pakiautomaat
+Tallinna Ülemiste City Selveri pakiautomaat
+Tallinna Ülemiste Keskuse pakiautomaat
+Tallinna Ümera Maxima XX pakiautomaat
+Tamsalu Grossi pakiautomaat
+Tapa Grossi pakiautomaat
+Tapa Maxima X pakiautomaat
+Tartu Aardla Selveri pakiautomaat
+Tartu Anne 40 Maxima X pakiautomaat
+Tartu Anne Selveri pakiautomaat
+Tartu Eedeni pakiautomaat
+Tartu Ilmatsalu Maxima X pakiautomaat
+Tartu Jaamamõisa Selveri pakiautomaat
+Tartu Karete Coop Konsumi pakiautomaat
+Tartu Kesklinna Keskuse pakiautomaat
+Tartu Kivilinna Coop Konsumi pakiautomaat
+Tartu Kvartali Keskuse pakiautomaat
+Tartu Lembitu Coop Konsumi pakiautomaat
+Tartu Lõunakeskuse pakiautomaat
+Tartu Raadi Maxima XX pakiautomaat
+Tartu Rebase Rimi pakiautomaat
+Tartu Ringtee Selveri pakiautomaat
+Tartu Saare Maxima X pakiautomaat
+Tartu Sõbrakeskuse pakiautomaat
+Tartu Tasku Keskuse pakiautomaat
+Tartu Tuglase Rimi pakiautomaat
+Tartu Ujula Coop Konsumi pakiautomaat
+Tartu Vahi Selveri pakiautomaat
+Tartu Veeriku Selveri pakiautomaat
+Torma Coop kaupluse pakiautomaat
+Turba kaupluse pakiautomaat
+Tõrva Maxima X pakiautomaat
+Tõrvandi Coop Konsumi pakiautomaat
+Türi Maxima X pakiautomaat
+Uuemõisa Coop Konsumi pakiautomaat
+Vaida Coop kaupluse pakiautomaat
+Valga Maxima XX pakiautomaat
+Valga Siili Coop Konsumi pakiautomaat
+Vastse-Kuuste Coop kaupluse pakiautomaat
+Viimsi Kaubanduskeskuse pakiautomaat
+Viimsi Pärnamäe Rimi pakiautomaat
+Viimsi Rimi pakiautomaat
+Viljandi Bussijaama pakiautomaat
+Viljandi Coop Maksimarketi pakiautomaat
+Viljandi Männimäe Selveri pakiautomaat
+Viljandi Tallinna 60 Maxima X pakiautomaat
+Viljandi Vaksali Maxima X pakiautomaat
+Vinni Spordikompleksi pakiautomaat
+Võru Coop Maksimarketi pakiautomaat
+Võru kesklinna Circle K pakiautomaat
+Võru Maxima XX pakiautomaat
+Väike-Maarja Grossi pakiautomaat
+Vändra Coop Konsumi pakiautomaat
+Vääna-Jõesuu kauplus Maksis pakiautomaat
+Ülenurme Coop Konsumi pakiautomaat`
+
+let list = document.querySelector('.list')
+
+console.log(list)
+
+let arr = string.split(' pakiautomaat')
+console.log(arr)
+let html 
+let htmllist = arr.forEach((item) =>{
+  // list.innerHTML = `<li>${item}</li>`
+list.insertAdjacentHTML('afterbegin',`<option value="${item}">${item} pakiautomaat</option>`)
+
+
+})
+
+
+  </script>
+</body>
+</html>
