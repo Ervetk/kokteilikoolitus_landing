@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Kokteilikoolitus</title>
+</head>
+<body>
+    <div class="container">
+    <!-- HEADER -->
+      <div class="header">
+        <img class="header__logo" src="./img/logo.svg" alt="logo">
+      </div>  
+      <main>
+        <div class="cta">
+          <div class="cta__content--left-col">
+              <p class="cta__text-contnent">
+              Osalege virtuaalsel kokteilikoolitusel koos BRIGITTE SUSANNE HUNDI ja Eesti parimate baarmenitega.<br><br>
+              Koolitus toimub 20. märts kell 18.00.
+              </p>
+            <div class="cta__content-box content-box">
+              <h2 class="content-box__title">
+              Üheskoos õpime valmistama viite erinevat kokteili.
+              </h2>
+              <p class="content-box__text">
+              Üheskoos õpime valmistama viite erinevat kokteili. Kokteilideks on armastatud APEROL SPRITZ, alati värskendav GREIBI COLLINS, baarmenite lemmik NEGRONI, hommikune ärataja MIMOSA ja GIN SOUR - vana hea klassika!
+              </p>
+              <button  class="btn"><a href="#contact-form">Registreeri</a></button>
+            </div>
+          </div>
+            <div class="cta__content--right-col">
+              <img class="cta__img" src="./img/person_1.jpg" alt="cta image person">
+            </div>
+        </div>
+      <!-- TEINE SECTIPN -->
+              <div class="row-50-50">
+                <div class="row-50-50__content-box--left">
+                  <img class="content-box__img" src="./img/cocktail_img_1.png" alt="">
+                </div>
+                <div class="content-box  row-50-50__content-box--right">
+                  <h2 class="content-box__title">
+                    Saadame sulle kõik vajamineva pakiautomaati
+                  </h2>
+                  <p class="content-box__text">
+                    Koolitusel osalejale saadame teiepoolt valitud Omniva pakiautomaati kokteilide valmistamiseks vajaminevad komponendid.
+                    Vali lähim pakiautomaat <a href="https://www.omniva.ee/abi/kaart" target="_blank">https://www.omniva.ee/abi/kaart  </a>                  
+                  </p>
+                </div>          
+              </div>
+      <!-- KOLMAS SECTION -->
+              <div class="row-50-50">
+                <div class="content-box row-50-50__content-box--left">
+                  
+                  <h2 class="content-box__title">
+                    Kuidas registreerida koolitusele?
+                  </h2>
+                  <p class="content-box__text">
+                    Osalustasu on 30€ ja tasuda saab kuni 16. Märtsini, peale mida saadetakse Teile osalemiseks vajaminev info.
+                    Koolituse kestvuseks on miinimum 1,5h.
+                    Osalemiseks ole vähemalt 18 aastat vana.
+                  </p>
+                  <button  class="btn"><a href="#contact-form">Registreeri</a></button>
+                </div>
+                <div class="row-50-50__content-box--right">
+                  <img class="content-box__img" src="./img/cocktail_img_1.jpg" alt="">
+              </div>     
+                </div>
+      
+                <div id="contact-form" class="contact-form">
+                  <h2 class="contact-form__title">Registreeri koolitusele</h2>
+                  <form class="contact-form__form-imputs" action="https://formsubmit.co/ervet@kiolein.ee" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="Uus kiri kokteilikoolituse reg. lehelt">
+                    <input type="hidden" name="_template" value="basic">
+                    <input type="hidden" name="_next" value="https://kokteilid.ee">
+                    <input type="text" placeholder="Nimi" name="Nimi" required>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                    <input type="text" name="Telefoninumber" placeholder="Telefoninumber">
+                    <label for="">Vali lähim pakiautomaat <a href="https://www.omniva.ee/abi/kaart" target="_blank">https://www.omniva.ee/abi/kaart  </a>              </label>
+                    <input type="text" name="Pakiautomaat" placeholder="Lähim Omniva pakiautomaat" required>
+                    <input type="text" name="Osalejate arv" placeholder="Osalejate arv" required>
+                    <textarea name="Lisainfo" id="" cols="30" rows="10" placeholder="Lisainfo"></textarea>
+                    <button class="contact-form__button" type="submit" >Registreeru</button>
+                  </form>
+                </div>
+      </main>
+    </div>
+</body>
+</html>
